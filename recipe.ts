@@ -22,7 +22,7 @@ export class RecipeBook {
                     if(category.CATEGORIES.includes(cat as category.CategoryType)) {
                         components.push(cat as category.CategoryType)
                     } else {
-                        console.error(`Wrong recipe ${recipe}: ${cat} is not a valid category. Valid categories: ${category.CATEGORIES}`);
+                        console.warn(`Wrong recipe ${recipe}: ${cat} is not a valid category. Valid categories: ${category.CATEGORIES}`);
                         invalid = true
                     }
                 }

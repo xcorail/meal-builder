@@ -14,7 +14,7 @@ export class Ingredient {
                 if(category.CATEGORIES.includes(cat as category.CategoryType)) {
                     result.set(ingredient, cat as category.CategoryType)
                 } else {
-                    console.error(`${cat} is not a valid category. Valid categories: ${category.CATEGORIES}`);
+                    console.warn(`${cat} is not a valid category. Valid categories: ${category.CATEGORIES}`);
                 }
             })
         } catch(err) {
