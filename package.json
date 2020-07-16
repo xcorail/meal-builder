@@ -20,6 +20,10 @@
     "js-yaml": "^3.13.1",
     "prettier": "^2.0.5",
     "ts-jest": "^26.0.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "csv-parser": "^2.3.3",
+    "csv-string": "4.0.1",
+    "fs": "0.0.1-security",
+    "jest-mock-console": "1.0.1"
   }
 }
